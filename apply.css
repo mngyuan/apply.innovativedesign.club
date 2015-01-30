@@ -8,7 +8,7 @@ body, html {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
-	color: white;
+	color: #DADADA;
 
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -46,6 +46,11 @@ body, html {
 a {
 	color: inherit;
 	text-decoration: none;
+	transition: all 0.5s;
+}
+
+a:hover {
+	color: white;
 }
 
 .box img {
