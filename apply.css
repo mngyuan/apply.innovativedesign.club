@@ -2,15 +2,36 @@ body, html {
 	margin: 0;
 	height: 100%;
 	width: 100%;
+	background: rgba(0,0,0,0.75);
 
-	background-image: url("bg.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 
 	color: white;
 
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-image: url("i/1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+
+	-webkit-transition: background-image 1.5s ease-in-out;
+	transition: background-image 1.5s ease-in-out;
+}
+.preload {
+	display: none;
 }
 
 .wrap {
