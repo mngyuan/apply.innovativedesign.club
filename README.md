@@ -1,4 +1,4 @@
-[apply.innovativedesign.club](http://apply.innovativedesign.club)
+[apply.innovativedesign.club](http://kevinmlee.io/apply.innovativedesign.club/)
 ===
 Office Board and Marketing Tier applications for [InnoD](http://innovativedesign.club) for Fall 2015.  
 
